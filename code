@@ -1,0 +1,17 @@
+ .class { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1px;
+    align-items: start;
+    justify-items: center;
+    margin: auto;
+    
+  }
+    .class img {
+    max-width: 100%;
+    padding: 10px;
+    }
+    .moz img:nth-child(2) {
+     grid-column: span 3;
+     grid-row: span 3;
+      }
